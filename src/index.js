@@ -1,1 +1,4 @@
-console.log(`hello world 123 123 123 123 1`);
+import menuMkUp from "./js/menu-markup.js"
+import dom from "./js/dom.js";
+import eventListeners from "./js/event-listeners"
+import styles from "./sass/main"
