@@ -3,6 +3,6 @@ export  const refs = {
   inputWrapper: document.querySelector(".theme-switch__control"),
   body: document.querySelector("body"),
   input: document.getElementById("theme-switch-toggle"),
-  inputChecked: document.getElementById("theme-switch-toggle:checked"),
+  inputCheckedState: document.getElementById("theme-switch-toggle:checked"),
 };
 
