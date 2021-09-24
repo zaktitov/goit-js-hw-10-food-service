@@ -11,10 +11,10 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{}],"Kgfu":[function(require,module,exports) {
 "use strict";var e=u(require("./menu.json")),t=u(require("../templates/menuMkUp.hbs")),r=require("./dom");function u(e){return e&&e.__esModule?e:{default:e}}const{menuList:n,inputWrapper:i,body:s,input:a}=r.refs;n.insertAdjacentHTML("afterbegin",(0,t.default)(e.default));
 },{"./menu.json":"NkM5","../templates/menuMkUp.hbs":"IImS","./dom":"EpLS"}],"yGjV":[function(require,module,exports) {
-"use strict";var e=require("./dom.js");const{menuList:t,inputWrapper:a,body:s,input:d,inputCheckedState:c}=e.refs,r={LIGHT:"light-theme",DARK:"dark-theme"};function h(){d.checked?(s.classList.add("dark-theme"),localStorage.setItem("theme",r.DARK)):(s.classList.remove("dark-theme"),s.classList.add("light-theme"),localStorage.setItem("theme",r.LIGHT))}d.addEventListener("change",h),localStorage.getItem("theme")==r.DARK&&(d.checked=!0,s.classList.add("dark-theme"));
+"use strict";var e=require("./dom.js");const{menuList:t,inputWrapper:s,body:a,input:h,inputCheckedState:i}=e.refs,m={LIGHT:"light-theme",DARK:"dark-theme"};function c(){h.checked?(a.classList.remove("light-theme"),a.classList.add("dark-theme"),localStorage.setItem("theme",m.DARK)):(a.classList.remove("dark-theme"),a.classList.add("light-theme"),localStorage.setItem("theme",m.LIGHT))}h.addEventListener("change",c),a.classList.add("light-theme"),localStorage.getItem("theme")==m.DARK&&(h.checked=!0,a.classList.add("dark-theme"),a.classList.remove("light-theme"));
 },{"./dom.js":"EpLS"}],"z71o":[function(require,module,exports) {
 
 },{}],"Focm":[function(require,module,exports) {
 "use strict";var e=u(require("./js/menu-markup.js")),r=u(require("./js/dom.js")),s=u(require("./js/local-storage"));function u(e){return e&&e.__esModule?e:{default:e}}require("./sass/main");
 },{"./js/menu-markup.js":"Kgfu","./js/dom.js":"EpLS","./js/local-storage":"yGjV","./sass/main":"z71o"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-10-food-service/src.3e3e5a78.js.map
+//# sourceMappingURL=/goit-js-hw-10-food-service/src.fc431138.js.map
